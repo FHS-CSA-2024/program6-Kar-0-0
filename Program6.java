@@ -3,7 +3,7 @@ import java.lang.Math;
 class Test{
     public static void main(String[] args){
         Scanner myScanner = new Scanner(System.in);
-        double pi = 3.14159;
+        final double pi = 3.14159;
         
         System.out.print("Type in the radius of the circle: ");
 
